@@ -1,0 +1,33 @@
+h3 {
+	color: green;
+	text-decoration: underline;
+	text-align: center;
+}
+
+html { background-color: #808080;
+
+}
+
+li { 
+
+	list-style: square;
+}
+
+ul {
+	
+}
+
+html { 
+
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+body {
+	background: url(../img/imagename);
+}
+
+.main {
+	width: 100px;
+	position: center;
+}

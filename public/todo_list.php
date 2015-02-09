@@ -4,7 +4,7 @@
 ?>
 
 <!DOCTYPE html>
-
+<link rel="stylesheet" href="/css/todo.css">
 <html>
 <head>
 	<title></title>
@@ -13,8 +13,12 @@
 
 <body>
 
+<br>
+<br>
 
-<h3>To-Do List</h3>
+<div class="main">
+
+<h3>To-Do List 2</h3>
 	<ul>
 		<li>Learn Git</li>
 		<li>Learn Shortcut Keys</li>
@@ -23,16 +27,20 @@
 	</ul>
 
 <form method="POST" action="/todo_list.php">
+    
     <p>
         <label for="additem">Add Item</label><br>
-        <input type="text" id="additem" name="additem"  placeholder="Type the item here">
+        <input type="text" id="additem" name="additem"  
+        placeholder="Type the item here">
     </p>
  
     <p>
-    <input type="submit" value="ADD IT!">
+    	<input type="submit" value="ADD IT!">
     </p>
 
 </form>
+
+</div>
 
 </body>
 </html>
